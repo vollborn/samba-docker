@@ -1,0 +1,10 @@
+services:
+    samba:
+        image: vollborn/samba:latest
+        ports:
+            - "139:139"
+            - "445:445"
+        volumes:
+            - "./users.env:/samba/users.env"
+            - "./smb.conf:/samba/smb.conf"
+            - "./data:/samba/data"

@@ -1,5 +1,5 @@
 .idea
-users.env
-.env
-smb.conf
+/users.env
+/.env
+/smb.conf
 data
