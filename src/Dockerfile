@@ -8,4 +8,4 @@ RUN chmod +x /samba/entrypoint.sh
 EXPOSE 139
 EXPOSE 445
 
-ENTRYPOINT '/samba/entrypoint.sh'
+ENTRYPOINT ["/samba/entrypoint.sh"]
